@@ -16,7 +16,7 @@
 
     - name: Create Transit Networking Model
       ansible.builtin.include_role:
-        name: lab.aws_infrastructure_config_demos.manage_transit_peered_networks
+        name: manage_transit_peered_networks
       vars:
         manage_transit_peered_networks_operation: create
 
